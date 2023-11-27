@@ -11,7 +11,7 @@ describe("", () => {
   
   })
   test("The rendered title contains content", () => {
-    render(<Header title="Sith Showdown"/>)
+    render(<Header />)
   
     const pageTitle = screen.getByRole("heading", {level: 1})
   

@@ -19,6 +19,45 @@ describe("PokemonVote component", () => {
     expect(voteButton.length).toBe(3);
     expect(voteScore.length).toBe(3);
   });
+
+  test('increments Bulbasaur votes when the Vote Bulbasaur button is clicked', () => {
+    render(<PokemonVote />);
+
+    const initialVoteCount = screen.getByTestId('bulbasaur-vote').textContent; //used a span tag to single out the vote count text content
+
+    const voteBulbasaurButton = screen.getByText('Vote Bulbasaur');
+    fireEvent.click(voteBulbasaurButton);
+
+    const updatedVoteCount = screen.getByTestId('bulbasaur-vote').textContent;
+
+    expect(parseInt(updatedVoteCount)).toBe(parseInt(initialVoteCount) + 1);
+  });
+
+  test('increments Bulbasaur votes when the Vote Charmander button is clicked', () => {
+    render(<PokemonVote />);
+
+    const initialVoteCount = screen.getByTestId('charmander-vote').textContent;
+
+    const voteBulbasaurButton = screen.getByText('Vote Charmander');
+    fireEvent.click(voteBulbasaurButton);
+
+    const updatedVoteCount = screen.getByTestId('charmander-vote').textContent;
+
+    expect(parseInt(updatedVoteCount)).toBe(parseInt(initialVoteCount) + 1);
+  });
+
+  test('increments Bulbasaur votes when the Vote Squirtle button is clicked', () => {
+    render(<PokemonVote />);
+
+    const initialVoteCount = screen.getByTestId('squirtle-vote').textContent;
+
+    const voteBulbasaurButton = screen.getByText('Vote Squirtle');
+    fireEvent.click(voteBulbasaurButton);
+
+    const updatedVoteCount = screen.getByTestId('squirtle-vote').textContent;
+
+    expect(parseInt(updatedVoteCount)).toBe(parseInt(initialVoteCount) + 1);
+  });
 })
 
 describe("The content of the imported components are rendered", ()=> {
