@@ -3,7 +3,7 @@
 Here is the test project https://github.com/JTKsson/build-from-tests
 
 All tests pass. 
-Havent put to much enegry on the styling but added some 
+Havent put to much energy on the styling but added some 
 
 Feedback:
 - My recommendation would be to provide a little bit more detailed and organized information about your project, which is helpful for anyone who will be working on it. 
