@@ -5,6 +5,8 @@ Here is the test project https://github.com/JTKsson/build-from-tests
 All tests pass. 
 Havent put to much energy on the styling but added some 
 
+Live demo https://xxrobone.github.io/build-from-tests/
+
 Feedback:
 - My recommendation would be to provide a little bit more detailed and organized information about your project, which is helpful for anyone who will be working on it. 
 - Includes a clear structure of components, their responsibilities, and the overall flow of the application. 
