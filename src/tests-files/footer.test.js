@@ -1,6 +1,6 @@
 import {render, screen} from '@testing-library/react'
 
-import Footer from '.'
+import Footer from '../components/Footer'
 
 describe("The footer is rendered with content", () => {
     test('The footer title is rendered', () => {

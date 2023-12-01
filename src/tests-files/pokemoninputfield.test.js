@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, waitFor, getByPlaceholderText } from "@testing-library/react";
-import PokemonInput from ".";
+import PokemonInput from "../components/PokemonInput";
 
 describe("When the input field is is submitted with new value, the name of the caracter will change", () => {
   test("An input field with button is rendered", () => {

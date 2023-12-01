@@ -1,5 +1,5 @@
 import {render, screen} from "@testing-library/react"
-import CalculateWinner from "."
+import CalculateWinner from "../components/CalculateWinner"
 
 describe("The pokemon in the lead or tied should be displayed", () => {
   test ("The display with the winner is rendered", () => {

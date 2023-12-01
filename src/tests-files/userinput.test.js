@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import UserInput from '.';
+import UserInput from '../components/UserInput';
 
 describe('A input field which will render the name you have inputted', () => {
   test('renders input field and submit button', () => {

@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import App from "./App";
+import App from "../App"
 
 describe("The content of the imported components have been rendered", () => {
   test("There's a title rendered", () => {
